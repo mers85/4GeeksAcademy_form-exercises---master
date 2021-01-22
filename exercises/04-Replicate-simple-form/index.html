@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width" />
-		<link rel="stylesheet" href="styles.css" />
+		<link rel="stylesheet" href="style.css" />
 		<title>4Geeks Academy</title>
 	</head>
 	<body>
@@ -15,7 +15,7 @@
 				</tr>
 				<tr>
 					<td><label for="fname">Name</label></td>
-					<td><input type="text" id="fname" name="fname" /></td>
+					<td><input class="w-100" type="text" id="fname" name="fname" cols="50" /></td>
 				</tr>
 				<tr>
 					<td><label for="sex">Sex</label></td>
@@ -38,13 +38,22 @@
 					</td>
 				</tr>
 				<tr>
-					<td colspan="2">
-						<label for="athletic-ability">Describe your athletic ability</label><br />
-						<textarea id="textarea-athletic-ability" name="athletic-ability" rows="4" cols="50"></textarea>
+					<td><label for="apply">Check all that apply</label></td>
+					<td>
+						<input type="checkbox" id="feet" name="feet" value="6 feet" />
+						<label for="feet">Over 6 feet tall</label><br />
+						<input type="checkbox" id="pounds" name="pounds" value="200 pounds" />
+						<label for="pounds">Over 200 pounds</label>
 					</td>
 				</tr>
 				<tr>
 					<td colspan="2">
+						<label for="athletic-ability">Describe your athletic ability</label><br />
+						<textarea id="textarea-athletic-ability" name="athletic-ability" rows="4" cols="55"></textarea>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" id="button">
 						<button type="submit" value="Submit">Enter my information</button>
 					</td>
 				</tr>

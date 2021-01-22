@@ -5,9 +5,13 @@ td {
 }
 
 th {
-	background-color: #dbbff6;
+	background-color: #c0c2f7;
 }
 
 button {
 	background-color: #e6e6e6;
+}
+
+td#button {
+	text-align: center;
 }
